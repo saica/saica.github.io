@@ -15,6 +15,9 @@ void setup() {
   colorMode(HSB);
   textAlign(CENTER);
 
+/*@pjs
+  preload="geidaimap.jpg";
+*/
   img = loadImage("geidaimap.jpg");
     image(img, 0, 0);
     loadPixels();
